@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Library Project</title>
+  </head>
+  <body>
+    <div class="card-container"></div>
+    <button class="new-book-btn">New Book</button>
+    <form action="">
+      <h2>Enter Book Details</h2>
+      <div>
+        <label for="title-input">Enter Title</label>
+        <input id="title-input" type="text" />
+      </div>
+      <div>
+        <label for="author-input">Enter Author</label>
+        <input id="author-input" type="text" />
+      </div>
+      <div>
+        <label for="pages-input">How many pages does this book have?</label>
+        <input id="pages-input" type="text" />
+      </div>
+      <div>
+        <label for="">Have you read this book?</label>
+        <input
+          type="radio"
+          name="radio-group"
+          class="radio-group"
+          value="true"
+        />
+        <input
+          type="radio"
+          name="radio-group"
+          class="radio-group"
+          value="false"
+        />
+      </div>
+      <button class="add-book-btn">Add Book</button>
+    </form>
+    <script src="./main.js"></script>
+  </body>
+</html>
